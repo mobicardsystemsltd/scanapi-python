@@ -1,5 +1,5 @@
 # Payment Card Scan API
-## MobiCard ScanAPI
+## MobiCard ScanAPI - python
 
 First, generate a JWT token and request for an access token (CURL). This is a one-time call per scan session.
 
