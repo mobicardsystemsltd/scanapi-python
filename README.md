@@ -1,6 +1,9 @@
 # Payment Card Scan API
 ## MobiCard ScanAPI
 
+First, generate a JWT token and request for an access token (CURL). This is a one-time call per scan session.
+
+On success response ('status_code' value '200'), retrieve the values for the mobicard_transaction_access_token, mobicard_token_id and mobicard_scan_card_url fields; to be used in the subsequent steps. 
 
 ## Success Response Format
 
